@@ -18,7 +18,7 @@ function updateDisplay() {
 }
 
 function saveToDynamoDB(input) {
-  fetch("https://gv4cojie4i.execute-api.us-east-2.amazonaws.com/prod/SaveUserEntry", {
+  fetch("https://5crw9zyyf3.execute-api.us-east-1.amazonaws.com/dev/", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ input })
