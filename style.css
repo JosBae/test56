@@ -1,0 +1,15 @@
+body {
+  background: #f0f8ff;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 50px;
+  text-align: center;
+}
+
+.container {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}

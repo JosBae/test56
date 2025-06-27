@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Hello World Input</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <style>
+  .my-button {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+  }
+  </style>
+
+<button class="my-button">Click Me</button>
+  <div class="container">
+    <h1>Hello from Amplify with Input</h1>
+    <p>Type something in the box and click Submit:</p>
+    <input type="text" id="userInput" placeholder="Type here..." />
+    <button onclick="submitInput()">Submit</button>
+    <p id="display"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
